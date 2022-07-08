@@ -1,4 +1,5 @@
 # xlsx_to_vcf
+Does nothing special, simple tool to make contact loading easy
 Easy way to convert multiple excel sheets with multiple sheets to individual vcf sheets.
 
 
