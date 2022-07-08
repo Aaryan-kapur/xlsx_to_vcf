@@ -1,7 +1,14 @@
-# !pip3 install xlrd pandas os
+import os
+import pip
+package_names=['xlrd','openpyxl','pandas']
+for i in package_names:
+    try:
+        pip.main(['install',i])
+    except:
+        print("Package "+i+" not found!")
+        continue
 import xlrd
 import pandas as pd
-import os
 
 
 
